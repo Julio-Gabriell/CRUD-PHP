@@ -64,16 +64,16 @@ Confira se o arquivo `conn.php` está configurado corretamente:
 
 ```php
 <?php
-$host = 'localhost';
-$user = 'root';
-$pass = '';
-$db = 'crud_php'; // Altere aqui se o nome for diferente
+    $host = "localhost";
+    $usuario = "root";
+    $senha = "";
+    $dataBase = "php_aulas";
 
-$conn = new mysqli($host, $user, $pass, $db);
+    $conn = new mysqli($host, $usuario, $senha, $dataBase);
 
-if ($conn->connect_error) {
-    die("Conexão falhou: " . $conn->connect_error);
-}
+    if ($conn->connect_error){
+        die("Erro :" . $conn->connect_error);
+    }
 ?>
 ```
 
