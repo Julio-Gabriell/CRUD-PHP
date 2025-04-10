@@ -8,7 +8,7 @@
 
     $sql = "INSERT INTO itens (nome, preco, quantidade, categoria) VALUES ('$nome', '$valor', '$quantidade', '$categoria')";
 
-    if($conn->query($sql)){
+    if($conn->query($sql) === True){
         header("Location: index.php");
     }else{
         echo "Erro: " . $conn->error;

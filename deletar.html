@@ -16,32 +16,30 @@
   <div class="container">
   <div class="d-flex justify-content-center">
     <h1 class="py-3 display-3">
-      Estoque
+      Exclusão de produto
     </h1>
   </div>
 
-  <table class="table table-striped text-center">
-    <thead>
-      <th scope="col">Id</th>
-      <th scope="col">Nome</th>
-      <th scope="col">Preço</th>
-      <th scope="col">Categoria</th>
-      <th scope="col">Quantidade</th>
-      <th scope="col">Editar</th>
-    </thead>
-    <tbody>
-      <?php
-        include "listar.php"
-      ?>
-    </tbody>
-  </table>
-
   <div class="row">
-    <div class="d-flex justify-content-center gap-3">
-      <a href="criar.html" class="btn btn-success">Adicionar produto <i class="fa-solid fa-plus px-1"></i></a>
-      <a href="deletar.html" class="btn btn-danger">Deletar produto <i class="fa-solid fa-trash px-1"></i></a>
+    <div class="d-flex justify-content-center">
+        <form action="deletar.php" method="post">
+            <div class="col-md-6">
+                <label for="idProduto" class="form-label">Nome Do Produto: </label>
+                <input type="number" name="idProduto" id="idProduto" class="form-control border-3" placeholder="Product id" required>
+            </div>
+    
+            <div class="row py-3">
+                <div class="d-flex justify-content-center gap-3">
+                    <button type="submit" class="btn btn-success btn-lg px-3">
+                        Deletar <i class="fa-solid fa-trash px-1"></i>
+                    </button>
+                  <a href="index.php" class="btn btn-danger btn-lg">Cancelar exclusão <i class="fa-solid fa-ban px-1"></i></a>
+                </div>
+              </div>
+        </form>
     </div>
   </div>
+
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
