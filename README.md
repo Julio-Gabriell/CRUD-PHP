@@ -51,7 +51,7 @@ Coloque a pasta do projeto dentro do diretório `www` do Laragon:
    👉 [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
 
 2. Crie um banco de dados com o nome que está em `conn.php`  
-   *(Ex: `aulas_php`)*
+   *(Ex: `php_aulas`)*
 
 3. Importar a estrutura do banco:  
    - Vá na aba **Importar**  
