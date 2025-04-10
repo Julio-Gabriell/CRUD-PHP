@@ -53,12 +53,7 @@ Coloque a pasta do projeto dentro do diretório `www` do Laragon:
 2. Crie um banco de dados com o nome que está em `conn.php`  
    *(Ex: `php_aulas`)*
 
-3. Importar a estrutura do banco:  
-   - Vá na aba **Importar**  
-   - Envie o arquivo `.sql` do projeto (se houver)  
-   - Clique em **Executar**
-
-### ⚙️ 4. Verificar Configuração do `conn.php`
+### ⚙️ 5. Verificar Configuração do `conn.php`
 
 Confira se o arquivo `conn.php` está configurado corretamente:
 
@@ -77,7 +72,7 @@ Confira se o arquivo `conn.php` está configurado corretamente:
 ?>
 ```
 
-## 🌐 5. Acessar o Projeto
+## 🌐 6. Acessar o Projeto
 Abra o navegador e digite:
 
 http://localhost/CRUD-PHP/
