@@ -87,7 +87,7 @@ Confira se o arquivo `conn.php` está configurado corretamente:
 ## 🌐 6. Acessar o Projeto
 Abra o navegador e digite:
 
-http://localhost/CRUD-PHP/
+http://localhost:3000/index.php
 
 ## 🎉 Pronto!
 Agora você pode:
