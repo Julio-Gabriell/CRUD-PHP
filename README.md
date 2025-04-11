@@ -47,11 +47,23 @@ Coloque a pasta do projeto dentro do diretório `www` do Laragon:
 
 ### 🗃️ 3. Criar o Banco de Dados
 
-1. Acesse o phpMyAdmin:  
-   👉 [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+1. Acesse o Banco de Dados no Laragon:  
+   👉 Clique em **"Banco de Dados"**
 
 2. Crie um banco de dados com o nome que está em `conn.php`  
    *(Ex: `php_aulas`)*
+
+3. Crie a tabela de itens que esta em `banco.sql`
+
+```sql
+CREATE TABLE itens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL,
+    quantidade INT NOT NULL,
+    categoria VARCHAR(50)
+);
+```
 
 ### ⚙️ 5. Verificar Configuração do `conn.php`
 
