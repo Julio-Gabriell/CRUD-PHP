@@ -20,12 +20,13 @@ Este repositório contém um exemplo simples de aplicação CRUD (Create, Read, 
 
 - `index.php` – Página inicial com listagem de produtos
 - `criar.html` – Form para adicionar novo produtos
-- `editar.html` – Form para editar um produtos
-- `deletar.html` – Form para deletar um produtos
-- `criar.php` – Script para adicionar novo produtos
-- `editar.php` – Script para editar um produtos
-- `deletar.php` – Script para deletar um produtos
+- `editar.html` – Form para editar um produtos, ja trazendo seus valores de sua criação
+- `deletar.html` – Form para deletar um produto
+- `criar.php` – Script para adicionar novos produtos
+- `procEditar.php` – Script para editar um produto
+- `deletar.php` – Script para deletar um produto
 - `conn.php` – Conexão com o banco de dados
+- `banco.sql` – Código sql para a tabela usada para este CRUD
 
   ## 🚀 Como Rodar o Projeto com Laragon
 

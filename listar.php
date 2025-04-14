@@ -16,7 +16,7 @@
             echo "<td>" . $linha["preco"] . " R$" . "</td>";
             echo "<td>" . $linha["categoria"] . "</td>";
             echo "<td>" . $linha["quantidade"] . "</td>";
-            echo "<td><a href='editar.html' class='btn btn-primary'><i class='fa-solid fa-pen'></i></a></td>";
+            echo "<td><a href='editar.php?" . "id=" . $linha["id"] . "' class='btn btn-primary'><i class='fa-solid fa-pen'></i></a></td>";
             echo "</tr>";
         }
     }else{
