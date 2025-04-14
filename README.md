@@ -1,6 +1,6 @@
 # CRUD-PHP
 
-Este repositório contém um exemplo simples de aplicação CRUD (Create, Read, Update, Delete) desenvolvida em PHP, demonstrando as operações básicas de gerenciamento de dados com banco de dados MySQL.
+Este repositório contém um exemplo simples de aplicação CRUD (Create, Read, Update, Delete) desenvolvida em PHP, demonstrando as operações básicas de gerenciamento de dados com banco de dados MySQL. 
 
 ## 🔧 Funcionalidades
 
